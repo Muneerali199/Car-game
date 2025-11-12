@@ -1,0 +1,108 @@
+# Unreal Engine 5 .gitignore
+
+# Visual Studio 2022 User Files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# Visual Studio 2022 build cache
+.vs/
+
+# Unreal Engine Build Files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# Unreal specific
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Starter Content (Optional - uncomment to exclude)
+# Content/StarterContent/
+
+# Cache files for the editor to use
+Saved/*
+DerivedDataCache/*
+Builds/*
+
+# Log Files
+*.log
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Local configuration
+Config/UserEngine.ini
+Config/UserGame.ini
+Config/UserInput.ini
+
+# Plugin intermediates
+Plugins/*/Intermediate/*
+Plugins/*/Binaries/*
+
+# Crash reports
+Crashes/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Node modules (if using any web tools)
+node_modules/
+
+# Package files
+*.zip
+*.rar
+*.7z
+
+# Except the ones in Tools/
+!Tools/**/*.zip
+!Tools/**/*.rar
+!Tools/**/*.7z
