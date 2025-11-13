@@ -18,7 +18,8 @@ public class CarGame : ModuleRules
 			"InputCore",
 			"PhysicsCore",
 			"ChaosVehicles",
-			"Niagara"
+			"Niagara",
+			"AudioMixer"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] 
@@ -27,7 +28,8 @@ public class CarGame : ModuleRules
 			"SlateCore",
 			"UMG",
 			"OnlineSubsystem",
-			"OnlineSubsystemUtils"
+			"OnlineSubsystemUtils",
+			"AIModule"
 		});
 
 		// Uncomment if you are using online features
